@@ -63,9 +63,6 @@ class Enemy(pg.sprite.Sprite):
     def update(self):
         self.rect.y = pudge.rect.y - 28
 
-    def testgit(self):
-        pass
-
 
 enemy = Enemy()
 All_sprites.add(enemy)
