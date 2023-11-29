@@ -14,7 +14,6 @@ BLUE = (0, 0, 255)
 #Создаем группу со всеми спрайтами(объектами)
 All_sprites = pg.sprite.Group()
 
-
 #Создаем класс игрового объекта
 class Pudge(pg.sprite.Sprite):
     def __init__(self):
